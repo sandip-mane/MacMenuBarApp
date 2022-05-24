@@ -11,6 +11,7 @@
 		B77C749A283D62F600FD78EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C7499283D62F600FD78EA /* ContentView.swift */; };
 		B77C749C283D62F700FD78EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77C749B283D62F700FD78EA /* Assets.xcassets */; };
 		B77C749F283D62F700FD78EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77C749E283D62F700FD78EA /* Preview Assets.xcassets */; };
+		B77C74A7283D63F600FD78EA /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77C74A6283D63F600FD78EA /* AppMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		B77C749B283D62F700FD78EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B77C749E283D62F700FD78EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B77C74A0283D62F700FD78EA /* MacMenuBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacMenuBarApp.entitlements; sourceTree = "<group>"; };
+		B77C74A6283D63F600FD78EA /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
+		B77C74A8283D649500FD78EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +55,13 @@
 		B77C7496283D62F600FD78EA /* MacMenuBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				B77C74A8283D649500FD78EA /* Info.plist */,
 				B77C7497283D62F600FD78EA /* MacMenuBarAppApp.swift */,
 				B77C7499283D62F600FD78EA /* ContentView.swift */,
 				B77C749B283D62F700FD78EA /* Assets.xcassets */,
 				B77C74A0283D62F700FD78EA /* MacMenuBarApp.entitlements */,
 				B77C749D283D62F700FD78EA /* Preview Content */,
+				B77C74A6283D63F600FD78EA /* AppMenu.swift */,
 			);
 			path = MacMenuBarApp;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77C74A7283D63F600FD78EA /* AppMenu.swift in Sources */,
 				B77C749A283D62F600FD78EA /* ContentView.swift in Sources */,
 				B77C7498283D62F600FD78EA /* MacMenuBarAppApp.swift in Sources */,
 			);
@@ -274,6 +280,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacMenuBarApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +308,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacMenuBarApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
