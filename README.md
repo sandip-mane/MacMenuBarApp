@@ -4,4 +4,4 @@
 - It will not be shown in Dock or in App Switcher
 - It will not have the ugly pointer
 
-![Screenshot](https://user-images.githubusercontent.com/9862943/170114288-163a43bb-e8cf-47ec-b1eb-111d36091f4c.png)
+![Screenshot](https://user-images.githubusercontent.com/9862943/170210312-6a6fad0a-cdae-4678-a5f2-1d0a0bede6db.png)
